@@ -25,9 +25,9 @@ contract Deploy is Script {
         treasury.setGovernance(address(daoGovernance));
 
         console.log("DAOGovernance:", address(daoGovernance));
-        console.log("DAOToken:", address(daoToken));
-        console.log("Treasury:", address(treasury));
-        console.log("DAOProxy:", address(proxy));
+        console.log("DAOToken:     ", address(daoToken));
+        console.log("Treasury:     ", address(treasury));
+        console.log("DAOProxy:     ", address(proxy));
 
         vm.stopBroadcast();
     }

@@ -2,7 +2,7 @@
 pragma solidity ^0.8.10;
 
 contract EmergencyStop {
-    bool isStopped = false;
+    bool public isStopped = false;
     address owner;
 
     constructor() {

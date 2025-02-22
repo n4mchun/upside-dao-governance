@@ -19,11 +19,11 @@ contract EmergencyStop {
         _;
     }
 
-    function emergencyStop() public onlyOwner {
+    function emergencyStop() external onlyOwner {
         isStopped = true;
     }
 
-    function resume() public onlyOwner {
+    function resume() external onlyOwner {
         isStopped = false;
     }
 }

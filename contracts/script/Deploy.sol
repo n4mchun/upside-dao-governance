@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.10;
 
-import "../src/core/DAOGovernance.sol";
-import "../src/core/Treasury.sol";
-import "../src/core/DAOToken.sol";
-import "../src/proxy/DAOProxy.sol";
+import "../core/DAOGovernance.sol";
+import "../core/Treasury.sol";
+import "../core/DAOToken.sol";
+import "../proxy/DAOProxy.sol";
 import "forge-std/Script.sol";
 
 contract Deploy is Script {
